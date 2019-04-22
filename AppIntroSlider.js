@@ -14,8 +14,7 @@ import DefaultSlide from './DefaultSlide';
 
 const { width, height } = Dimensions.get('window');
 
-const isIphoneX =
-  Platform.OS === 'ios' && !Platform.isPad && !Platform.isTVOS && (height === 812 || width === 812);
+const isIphoneX = false;
 
 const isAndroidRTL = I18nManager.isRTL && Platform.OS === 'android';
 
